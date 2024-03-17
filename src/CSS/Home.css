@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  .hero-image img {
+    position: relative;
+    width: 50vw;
+    height: 384px;
+    left: 33%;
+    top: -10px;
+  }
+  .main-container{
+    width: 100%;
+  }
+  .Container {
+    z-index: -1;
+    background-color: black;
+    color: white;
+    padding: 15px;
+  }
+  .section {
+    width: 70%;
+    margin: auto;
+  }
+  .section p {
+    font-size: 16px;
+    padding: 0px 0px 32px;
+    display: block;
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+      "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+    color: rgb(209, 213, 219);
+  }
+  .section ul li {
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+      "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+    color: rgb(209, 213, 219);
+  }
+  .section h2 {
+    font-size: 36px;
+    color: rgb(229, 231, 235);
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+      "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+  }
+  
+  /* Slider Image */
+  
+  .slider{
+    width: 60%;
+    margin: auto;
+  }
+  .Footer {
+    background-color: rgb(17, 24, 39);
+    color: white;
+    padding: 15px;
+  }
+  .navlink {
+    font-style: none;
+    color: rgb(107, 114, 128);
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+      "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+  }
+  .links {
+    display: flex;
+    justify-content: center;
+    gap: 30rem;
+  }
+  .copyright {
+      font-family: 18px;
+      color: rgb(156, 163, 175);
+    text-align: center;
+    margin-top: 10px;
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+      "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+  }
+  .logo {
+    display: flex;
+    gap: 1rem;
+  }
+  .logo img {
+    width: 30px;
+    height: 30px;
+  }
+  .foot-heading {
+    color: rgb(156, 163, 175);
+    font-size: 18px;
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+      "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+  }
+  
+  @media screen and (max-width: 685px) {
+    *{
+      overflow-x: hidden;
+    }
+    .Container{
+      padding: 10px;
+    }
+    
+    .links{
+      gap: 10rem;
+    }
+    .hero-image img{
+      height: 200px;
+    }
+  }
+  
+  @media screen and (max-width: 485px) {
+    .copyright{
+      display: none;
+    }
+    .links{
+      gap: 4rem;
+    }
+  }
